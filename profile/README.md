@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="logo.png" alt="RetypeOS Logo" width="150"/>
+  <img src="logo-band.png" alt="RetypeOS Logo"/>
 </p>
 
 <h1 align="center">Welcome to RetypeOS</h1>
@@ -21,9 +21,7 @@ In a world of diverse technologies and sprawling projects, context switching is 
 
 | Project | Description | Stars |
 | :--- | :--- | :--- |
-| 🚀 **[axes](https://github.com/RetypeOS/axes)** | The universal remote control for your development workflow. An intelligent, hierarchical orchestrator that unifies your command-line tools with a simple, consistent language. | ![GitHub Repo stars](https://img.shields.io/github/stars/RetypeOS/axes?style=social) |
-
-*(A medida que añadas más proyectos, los listarás aquí)*
+| <a href="https://github.com/RetypeOS/axes"><img src="https://github.com/RetypeOS/axes/blob/main/logo.png" alt="axes" width="100" style="border-radius: 20px;"/></a> | The universal remote control for your development workflow. An intelligent, hierarchical orchestrator that unifies your command-line tools with a simple, consistent language. | ![GitHub Repo stars](https://img.shields.io/github/stars/RetypeOS/axes?style=social) |
 
 ## 🤝 How to Contribute
 

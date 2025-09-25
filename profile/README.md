@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="logo-band-2.png" alt="RetypeOS Logo" width="400"/>
+  <img src="logo-band.png" alt="RetypeOS Logo" width="400"/>
 </p>
 
 <h1 align="center">Welcome to RetypeOS</h1>

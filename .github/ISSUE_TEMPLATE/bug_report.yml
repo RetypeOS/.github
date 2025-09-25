@@ -1,0 +1,70 @@
+# .github/ISSUE_TEMPLATE/bug_report.yml
+
+name: 🐛 Bug Report
+description: Create a report to help us improve axes
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - Retype15
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to file a bug report! To help us resolve this issue as quickly as possible, please provide as much detail as you can.
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is. What happened, and what did you expect to happen instead?
+      placeholder: "When I run `axes . info`, it panics with a 'thread panicked' error, but I expected it to show the project information."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide the exact steps to reproduce the behavior. This is the most important part of a good bug report.
+      value: |
+        1. In this directory structure...
+        2. Create this `axes.toml` file...
+        3. Run this command `...`
+        4. See error
+      placeholder: "e.g., 1. Create a new directory `my-test`. 2. Run `axes init my-test`. 3. Delete the `.axes` directory. 4. Run `axes . info` in the `my-test` directory."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: "If applicable, please provide any relevant logs. You can get more detailed logs by running the command with `RUST_LOG=debug`. For example: `RUST_LOG=debug axes . info`"
+      render: shell
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: What operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: axes-version
+    attributes:
+      label: What version of axes are you using?
+      description: "You can find this by running `axes --version`."
+      placeholder: "e.g., axes 0.1.3-Alpha"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Is there anything else you'd like to add? Screenshots, ideas on what might be causing the bug, etc.

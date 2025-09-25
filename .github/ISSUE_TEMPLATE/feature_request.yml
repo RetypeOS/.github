@@ -1,0 +1,54 @@
+# .github/ISSUE_TEMPLATE/feature_request.yml
+
+name: ✨ Feature Request
+description: Propose a new idea or enhancement for axes
+title: "[Feature]: "
+labels: ["enhancement", "needs-discussion"]
+assignees:
+  - Retype15
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an idea to make axes better! A great feature request is well-reasoned and clearly articulated.
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Is your feature request related to a problem? Please describe.
+      description: A clear and concise description of what the problem is. Why is the current behavior not sufficient?
+      placeholder: "e.g., I'm always frustrated when I have to run multiple `dev` commands in separate terminals. I wish I could launch them as background processes managed by axes."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution-description
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen. How would this feature work from a user's perspective?
+      placeholder: "e.g., I would like to be able to run `axes api dev => api_server`. This would start the `dev` script in the background and assign it the name `api_server`. Then, I could manage it with commands like `axes process logs api_server`."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+      placeholder: "e.g., I considered writing a complex shell script, but that's not portable and doesn't integrate with axes's project context."
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Can you help us implement this feature?
+      description: We are a community-driven project. Letting us know if you're interested in contributing helps us prioritize.
+      options:
+        - label: I am willing to submit a Pull Request to implement this feature.
+        - label: I am not able to, but I can help with testing and providing feedback.
+        - label: I'm just throwing an idea out there!
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context, mockups, or screenshots about the feature request here.

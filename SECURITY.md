@@ -41,7 +41,7 @@ The most secure and preferred way to report a vulnerability is through **GitHub'
 
 If you are unable to use GitHub's private reporting feature, you can send an email to our security contact.
 
-* **Email:** `reynierramos280 [at] gmail [dot] com`
+* **Email:** `reynierramos280@gmai.com`
 
 Please use a clear subject line, such as `[SECURITY] Vulnerability in RetypeOS/axes`. If possible, please encrypt your email using PGP to protect the contents of the report.
 
